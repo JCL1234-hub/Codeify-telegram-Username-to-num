@@ -1,7 +1,18 @@
 {
-  "name": "telegram/user-api",
-  "description": "Telegram User Info API",
+  "name": "telegram/user-info-api",
+  "description": "Telegram User Info API - Get user details by username or ID",
+  "version": "1.0.0",
+  "type": "project",
   "require": {
-    "php": ">=7.4"
+    "php": ">=8.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "echo '✅ PHP environment ready for Vercel deployment'"
+    ]
   }
 }
