@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "name": "telegram-user-api",
   "functions": {
     "api/index.php": {
-      "runtime": "php@8.2" // or "php@8.3"
+      "runtime": "php@8.2"
     }
   },
   "routes": [
