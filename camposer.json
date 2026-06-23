@@ -1,0 +1,7 @@
+{
+  "name": "telegram/user-api",
+  "description": "Telegram User Info API",
+  "require": {
+    "php": ">=7.4"
+  }
+}
